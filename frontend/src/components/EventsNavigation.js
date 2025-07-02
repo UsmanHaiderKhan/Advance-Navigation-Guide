@@ -6,10 +6,10 @@ function EventsNavigation() {
       <nav>
         <ul className={classes.list}>
           <li>
-            <a href="/events">All Events</a>
+            <a href="/frontend/src/pages/Events">All Events</a>
           </li>
           <li>
-            <a href="/events/new">New Event</a>
+            <a href="/frontend/src/pages/Events.js/new">New Event</a>
           </li>
         </ul>
       </nav>
