@@ -50,7 +50,7 @@ async function loadEvents() {
 export async function loader({request, params}) {
     const id = params.eventId;
     return {
-        event: loadEventDetail(id),
+        event: await loadEventDetail(id),
         events: loadEvents(),
     };
 }
